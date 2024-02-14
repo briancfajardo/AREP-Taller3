@@ -138,7 +138,7 @@ los siguientes paquetes dentro del Web Client:
 * Copy Spark - Para este componente creamos el paquete "copySpark" donde dejamos toda la lógica necesaria para guardar 
 funcionalidades en el código para luego buscarlas y correrlas cuando sea necesario
 
-### Extencibilidad
+### Extensibilidad
 
 Para realizar una posible extensión se pueden dar dos posibles casos
 
