@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Movie searcher</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="camera.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<p id="title">Movie searcher</p>
+<div id="cards">
+    <div class="search-input" id="search-input-get">
+        <form class="movieForm" id="movieForm-get" action="/movie">
+            <label for="name-get">Name of the movie (GET):</label><br>
+            <input class="name" type="text" id="name-get" name="name" value=""><br><br>
+            <input class="toggle-button" type="button" id="toggle-button-get" value="Search" onclick="loadGetMsg();">
+        </form>
+        <div class="respmsg" id="getrespmsg"></div>
+    </div>
+    <div class="search-input" id="search-input-post">
+        <form class="movieForm" id="movieForm-post" action="/movie">
+            <label for="name-post">Name of the movie (POST):</label><br>
+            <input class="name" type="text" id="name-post" name="name" value=""><br><br>
+            <input class="toggle-button" type="button" id="toggle-button-post" value="Search" onclick="loadPostMsg();">
+        </form>
+        <div class="respmsg" id="postrespmsg"></div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

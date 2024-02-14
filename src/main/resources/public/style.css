@@ -1,0 +1,97 @@
+*
+{
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("fondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+}
+#title
+{
+    font-size: 5em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+#cards
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2em;
+}
+.search-input {
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #7a7a7a;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+.movieForm label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.name {
+    /* Ancho del campo de entrada */
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.toggle-button {
+    width: 100%;
+    background-color: #328861;
+    color: #fff;
+    border: 1px solid #5e5e5e;
+    border-radius: 15px;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.toggle-button:active
+{
+    background-color: #18412e;
+}
+
+
+.respmsg
+{
+    display: flex;
+    justify-content: center;
+    margin-right: 0.5em;
+}
+.movie-container
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.info-movie
+{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+img
+{
+    border-radius: 15px;
+    width: 100%;
+    margin-left: 1em;
+}
